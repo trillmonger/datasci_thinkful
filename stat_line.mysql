@@ -1,0 +1,56 @@
+
+
+Create TABLE stat_line (
+
+    game_date_est VARCHAR(255), 
+    game_sequence FLOAT,
+    game_id INT,
+    team_id_home INT,   
+ team_abbreviation_home VARCHAR(255),
+ team_city_name_home VARCHAR(255),
+ team_nickname_home VARCHAR(255),
+ team_wins_losses_home VARCHAR(255),
+ pts_qtr1_home FLOAT,
+ pts_qtr2_home FLOAT,
+ pts_qtr3_home FLOAT,
+ pts_qtr4_home FLOAT,
+ pts_ot1_home FLOAT, 
+ pts_ot2_home FLOAT,
+ pts_ot3_home FLOAT,
+ pts_ot5_home FLOAT,
+ pts_ot6_home FLOAT,
+ pts_ot7_home FLOAT,
+ pts_ot8_home FLOAT,
+ pts_ot9_home FLOAT, 
+ts_ot10_home  FLOAT,
+pts_home FLOAT,
+team_id_away FLOAT, 
+team_abbreviation_away VARCHAR(255),
+team_city_name_away VARCHAR(255),
+team_nickname_away VARCHAR(255),
+team_wins_losses_away VARCHAR(255),
+ pts_qtr1_away FLOAT,
+pts_qtr2_away FLOAT,
+ pts_qtr3_away FLOAT,
+ pts_qtr4_away FLOAT,
+ pts_ot1_away  FLOAT,
+ pts_ot2_away  FLOAT,
+ pts_ot3_away  FLOAT,
+ pts_ot4_away  FLOAT,
+ pts_ot5_away  FLOAT,
+ pts_ot6_away FLOAT,
+ pts_ot7_away FLOAT,
+ pts_ot8_away FLOAT,
+ pts_ot9_away FLOAT,
+ pts_ot10_away FLOAT,
+ pts_away FLOAT
+
+)
+
+
+
+
+
+SELECT team_city_name_home
+FROM stat_line
+LIMIT 45;
